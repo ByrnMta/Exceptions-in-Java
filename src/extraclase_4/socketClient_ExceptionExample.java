@@ -49,7 +49,7 @@ public class socketClient_ExceptionExample {
 
         } catch (UnknownHostException eo) {
             //eo.printStackTrace(); // Para ver la ruta que el error persigue en el código quite el "//" al inicio de "eo.printStackTrace();"
-            System.out.println(eo);
+            System.out.println("\n>> System: Error de tipo "+"'"+eo+"'"+ " capturado: ");
         } catch (IOException es) {
             //es.printStackTrace(); // Para ver la ruta que el error persigue en el código quite el "//" al inicio de "es.printStackTrace();"
             System.out.println("\n>> System: Error de tipo "+"'"+es+"'"+ " capturado: ");
